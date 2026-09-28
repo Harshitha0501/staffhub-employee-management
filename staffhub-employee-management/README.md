@@ -80,3 +80,40 @@ README.md
 
 - GitHub: https://github.com/Harshitha0501
 - Project: https://github.com/Harshitha0501/staffhub-employee-management
+
+- ---
+
+## 📸 Project Screenshots
+
+### 1. Admin Dashboard
+![Admin Dashboard](admin-dashboard.png)
+
+### 2. HR Dashboard
+![HR Dashboard](hr-dashboard.png)
+
+### 3. Employee Dashboard
+![Employee Dashboard](employee-dashboard.png)
+
+### 4. Attendance
+![Attendance](attendance.png)
+
+### 5. Announcements
+![Announcements](announcements.png)
+
+### 6. Payslip
+![Payslip](payslip.png)
+
+### 7. Task Assigned
+![Task Assigned](task-assigned.png)
+
+### 8. Leave Status
+![Leave Status](leave-status.png)
+
+### 9. HR Leave Requests
+![HR Leave Requests](hr-leave-requests.png)
+
+### 10. Employee Management
+![Employee Management](employee-management.png)
+
+### 11. Department Management
+![Department Management](department-management.png)
