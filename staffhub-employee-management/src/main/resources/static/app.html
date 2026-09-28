@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StaffHub — Employee Management</title>
+    <meta name="description" content="StaffHub — employee records, attendance, leave, payroll, tasks and announcements in one command center">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/extra.css">
+</head>
+<body class="app-body">
+<div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-brand">
+            <span class="brand-mark" aria-hidden="true">
+                <svg viewBox="0 0 32 32" width="26" height="26"><rect width="32" height="32" rx="7" fill="#1E293B"/><rect x="7" y="11" width="18" height="13" rx="2.5" fill="none" stroke="#fff" stroke-width="2"/><path d="M12 11V9.5A2.5 2.5 0 0 1 14.5 7h3A2.5 2.5 0 0 1 20 9.5V11" fill="none" stroke="#fff" stroke-width="2"/><path d="M7 17h18" stroke="#3B82F6" stroke-width="2.4"/><rect x="14.5" y="15.6" width="3" height="2.8" rx="0.8" fill="#3B82F6"/></svg>
+            </span>
+            <div class="brand-copy">
+                <span class="brand-name">StaffHub</span>
+                <span class="brand-caption">HR Command Center</span>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav" id="nav" aria-label="Main navigation"></nav>
+
+        <div class="sidebar-footer">
+            <div class="user-chip">
+                <span class="avatar" id="user-initials" aria-hidden="true">·</span>
+                <div class="user-copy">
+                    <span class="user-name" id="user-name">Loading…</span>
+                    <span class="user-role" id="user-role"></span>
+                </div>
+            </div>
+            <button class="btn btn-ghost btn-block" id="logout-btn" type="button" data-testid="logout-btn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="m16 17 5-5-5-5"/><path d="M21 12H9"/></svg>
+                Sign out
+            </button>
+        </div>
+    </aside>
+
+    <div class="sidebar-backdrop" id="sidebar-backdrop" hidden></div>
+
+    <div class="app-main">
+        <header class="topbar">
+            <div class="topbar-left">
+                <button class="menu-btn" id="menu-btn" type="button" aria-label="Toggle navigation" data-testid="menu-btn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg>
+                </button>
+                <div>
+                    <h1 class="topbar-title" id="view-title">Dashboard</h1>
+                    <p class="topbar-subtitle" id="view-subtitle"></p>
+                </div>
+            </div>
+            <div class="topbar-right">
+                <span class="today-label mono" id="today-label"></span>
+                <div class="notif" id="notif">
+                    <button class="notif-btn" id="notif-btn" type="button" aria-label="Notifications" data-testid="notif-btn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+                        <span class="notif-badge" id="notif-badge" hidden data-testid="notif-badge">0</span>
+                    </button>
+                    <div class="notif-panel" id="notif-panel" hidden data-testid="notif-panel"></div>
+                </div>
+                <span class="avatar avatar-sm" id="user-avatar-top" aria-hidden="true">·</span>
+            </div>
+        </header>
+
+        <main class="content" id="view-root" data-testid="view-root"></main>
+    </div>
+</div>
+
+<div class="toast-stack" id="toast-stack" aria-live="polite"></div>
+
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

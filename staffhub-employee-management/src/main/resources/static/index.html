@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign in — StaffHub</title>
+    <meta name="description" content="StaffHub employee management system — admin sign in">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/extra.css">
+</head>
+<body class="login-page">
+<aside class="login-brand">
+    <div class="brand-block">
+        <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="28" height="28"><rect width="32" height="32" rx="7" fill="#0F172A"/><rect x="7" y="11" width="18" height="13" rx="2.5" fill="none" stroke="#fff" stroke-width="2"/><path d="M12 11V9.5A2.5 2.5 0 0 1 14.5 7h3A2.5 2.5 0 0 1 20 9.5V11" fill="none" stroke="#fff" stroke-width="2"/><path d="M7 17h18" stroke="#3B82F6" stroke-width="2.4"/><rect x="14.5" y="15.6" width="3" height="2.8" rx="0.8" fill="#3B82F6"/></svg>
+        </span>
+        <span class="brand-name">StaffHub</span>
+    </div>
+    <h1 class="login-headline">The HR &amp; operations<br>command center.</h1>
+    <p class="login-tagline">Employee records, attendance, leave and payroll — one precise, high-contrast workspace for people teams.</p>
+    <ul class="login-points">
+        <li><span class="point-icon">✓</span> Role-based access for Admin, HR &amp; Employees</li>
+        <li><span class="point-icon">✓</span> Self-service leave, attendance &amp; payslips</li>
+        <li><span class="point-icon">✓</span> Task assignments, announcements &amp; alerts</li>
+        <li><span class="point-icon">✓</span> Admin-provisioned logins with generated passwords</li>
+    </ul>
+    <p class="login-footnote">Java · Spring Boot · HTML/CSS/JS — demo admin: <span class="mono">admin / admin123</span></p>
+</aside>
+
+<main class="login-panel">
+    <form class="login-card" id="login-form" novalidate>
+        <h2>Welcome back</h2>
+        <p class="login-sub">Sign in to your StaffHub workspace.</p>
+
+        <div class="field">
+            <label class="label" for="username">Username</label>
+            <input class="input" type="text" id="username" name="username" autocomplete="username"
+                   placeholder="admin" required data-testid="login-username-input">
+        </div>
+        <div class="field">
+            <label class="label" for="password">Password</label>
+            <input class="input" type="password" id="password" name="password" autocomplete="current-password"
+                   placeholder="••••••••" required data-testid="login-password-input">
+        </div>
+
+        <p class="login-error" id="login-error" role="alert" hidden data-testid="login-error"></p>
+
+        <button class="btn btn-primary btn-block" type="submit" id="login-submit" data-testid="login-submit-btn">
+            Sign in
+        </button>
+        <p class="login-hint">Admin <span class="mono">admin / admin123</span> · HR <span class="mono">hr / hr12345</span> · Employee <span class="mono">arjun.mehta / welcome123</span></p>
+    </form>
+</main>
+
+<script type="module" src="/js/login.js"></script>
+</body>
+</html>
