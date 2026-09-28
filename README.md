@@ -2,6 +2,10 @@
 
 A full-stack HR management application built with Java 17, Spring Boot, Spring Security, Spring Data JPA, H2, HTML, CSS, and JavaScript.
 
+## 🌐 Live Demo
+
+[Click here to view StaffHub](https://staffhub-employee-management.onrender.com)
+
 ## Features
 
 ### Admin
