@@ -81,8 +81,6 @@ README.md
 - GitHub: https://github.com/Harshitha0501
 - Project: https://github.com/Harshitha0501/staffhub-employee-management
 
-- ---
-
 ## 📸 Project Screenshots
 
 ### 1. Admin Dashboard
