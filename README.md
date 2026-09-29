@@ -10,7 +10,16 @@
 
 # StaffHub — Employee Management System
 
-A full-stack HR management application built with Java 17, Spring Boot, Spring Security, Spring Data JPA, H2, HTML, CSS, and JavaScript.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17-orange?logo=openjdk" />
+  <img src="https://img.shields.io/badge/Spring_Boot-3.5-6DB33F?logo=springboot" />
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity" />
+  <img src="https://img.shields.io/badge/H2-Database-blue" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white" />
+</p>
 
 ## 🌐 Live Demo
 
