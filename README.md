@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="images/staffhub-banner.png" alt="StaffHub Employee Management System Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://staffhub-employee-management.onrender.com">
+    <img src="https://img.shields.io/badge/Live_Demo-Visit_StaffHub-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo">
+  </a>
+</p>
+
 # StaffHub — Employee Management System
 
 A full-stack HR management application built with Java 17, Spring Boot, Spring Security, Spring Data JPA, H2, HTML, CSS, and JavaScript.
