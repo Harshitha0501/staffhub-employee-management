@@ -21,9 +21,6 @@
   <img src="https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white" />
 </p>
 
-## 🌐 Live Demo
-
-[Click here to view StaffHub](https://staffhub-employee-management.onrender.com)
 
 ## Features
 
