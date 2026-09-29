@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/staffhub-banner.png" alt="StaffHub Employee Management System Banner" width="100%">
+<img src="imagesstaffhub-banner.png" alt="StaffHub Employee Management System Banner" width="100%">
 </p>
 
 <p align="center">
